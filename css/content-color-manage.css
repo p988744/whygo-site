@@ -1,350 +1,63 @@
-
-
-.page-banner{
-	background-size: 100%;
-	background-position: 50% 50%;
-	padding: 8em 0 2em 0;
-	background-repeat: no-repeat;
-	background: rgba(0,0,0,.3);
+.page-banner{background-size:100%;background-position:50% 50%;padding:8em 0 2em 0;background-repeat:no-repeat;background:rgba(0,0,0,.3);}
+.page-banner h1{color:#fff;font-size:5em;}
+.page-banner small{color:#fff;font-size:.4em;}
+.page-banner-inverse h1{color:#fff;}
+.page-banner-inverse small{color:#fff;font-size:.4em;}
+#index-School, #index-Testimonials{background:rgba(230,230,230,.9);width:100%;background-position:center;background-size:cover;}
+.carousel-caption, .carousel-caption h1{color:#fff;}
+.carousel-caption h1{font-size:4em;margin:0;padding:0;}
+#school-banner{background:rgba(0,0,0,.2);background-size:100%;background-position:50% 50%;background-repeat:no-repeat;}
+#service-banner{background:url('https://ununsplash.imgix.net/photo-1416339134316-0e91dc9ded92?q=75&fm=jpg&s=883a422e10fc4149893984019f63c818');background-size:100%;background-position:50% 50%;background-repeat:no-repeat;}
+#contact-banner{background:url('../img/contact.jpg');background-size:100%;background-position:80% 50%;background-repeat:no-repeat;}
+#construction-banner{background:url('https://unsplash.imgix.net/reserve/oIpwxeeSPy1cnwYpqJ1w_Dufer%20Collateral%20test.jpg?q=75&fm=jpg&s=d8cce13e5d977aeec5bdbec256987adf');background-size:100%;background-position:80% 50%;background-repeat:no-repeat;}
+#overview-banner{background:url('../img/overview.jpg');background-size:100%;background-position:80% 50%;background-repeat:no-repeat;}
+#consultation-banner{background:url('../img/whygo/whygo-paper.jpg');background-size:100%;background-position:80% 50%;background-repeat:no-repeat;}
+.content-inverse{color:#fff;background:rgba(230,230,230,.8);}
+.page-header{border-bottom:1px solid #ccc}
+h2{color:#EFC028;font-size:2.5em;}
+.style-lightblue,h1{color:#0067A6;font-size:3em;}
+h3{color:#FF8641;font-size:2em;}
+.style-gray,h4{color:#999;}
+.style-darkblue{color:#008972;}
+#school-page-main-bg{background:url('../img/hero.jpg');background-size:250%;background-position:50% 50%;background-repeat:no-repeat;}
+#index-page-main-bg{background:url('../img/notebook.jpg');background-size:250%;background-position:50% 50%;background-repeat:no-repeat;}
+#overview-page-main-bg{background:url('https://s3.amazonaws.com/ooomf-com-files/tkLOe7nnQ7mnMsiuijBy_hm.jpg');background-size:250%;background-position:50% 50%;background-repeat:no-repeat;}
+#services-page-main-bg{background:url('../img/service.jpg');background-size:250%;background-position:0% 50%;background-repeat:no-repeat;}
+#contact-page-main-bg{background:url('../img/contact.jpg');background-size:250%;background-position:0% 50%;background-repeat:no-repeat;}
+#consultation-page-main-bg{background:url('../img/whygo/whygo-paper-light.jpg');background-size:250%;background-position:50% 50%;background-repeat:no-repeat;}
+.footer-bg{background:rgba(230,230,230,1);color:#555;}
+.carousel h1{color:#fff;}
+.inverse h1{color:#EFC028;}
+.content-bg-gray{background:#eee;color:#777;}
+.content-bg-white{background:#fff;color:#333;}
+.content-bg-dark{background:#ddd;color:#555;}
+.content-bg-black, .content-bg-black h2, .content-bg-black p{background:#555;color:#ddd;}
+.content-bg-none{background:none;}
+.content-bg-gray-img{background:rgba(230,230,230,.7);}
+.content{background:#fff;}
+.text-primary-1{color:#F26378;}
+.text-primary-2{color:#F07403;}
+.text-primary-3{color:#13DBAD;}
+.text-primary-4{color:#0092C7;}
+.panel-default .panel-level-1,.panel-default .panel-level-1 h4{background:#2FA1BF;color:#fff;}
+.panel-default .panel-level-2,.panel-default .panel-level-2 h4{background:#1F6B7F;color:#fff;}
+.panel-default .panel-level-3,.panel-default .panel-level-3 h4{background:#103640;color:#fff;}
+.language-switch{background:#aaa;color:#eee;}
+.content-bg-gray-opacity{background:rgba(255,255,255,.9);}
+.wrapper-cover-light{background:rgba(240,240,240,.8);width:100%;height:100%;position:absolute;top:0;}
+.wrapper-cover-dark{background:rgba(50,50,50,.8);width:100%;height:100%;position:absolute;top:0;}
+.content-bg-inverse p,.content-bg-inverse h2{color:#fff;}
+.content-bg-inverse .lead{color:#008972;}
+button.hightlight,.hightlight{background:#EF6120;color:#fff;border:none;-webkit-transition:all 200ms cubic-bezier(0.77, 0, 0.175, 1) 10ms;-moz-transition:all 200ms cubic-bezier(0.77, 0, 0.175, 1) 10ms;-o-transition:all 200ms cubic-bezier(0.77, 0, 0.175, 1) 10ms;transition:all 200ms cubic-bezier(0.77, 0, 0.175, 1) 10ms;}
+.mask{position:fixed;top:0;z-index:999999999;width:100%;height:100%;background:#f1f1f1;}
+button.hightlight:hover,.hightlight:hover{background:#EFC028;color:#fff;border:none;}
+@media(max-width:1920px){#index-page-main-bg,#school-page-main-bg,#overview-page-main-bg,#services-page-main-bg,#contact-page-main-bg,#consultation-page-main-bg{background-size:100%;}
 }
-
-.page-banner h1{
-	color: #fff;
-	font-size: 5em;
+@media(max-width:1280px){#index-page-main-bg,#school-page-main-bg,#overview-page-main-bg,#services-page-main-bg,#contact-page-main-bg,#consultation-page-main-bg{background-size:150%;}
 }
-
-.page-banner small{
-	color: #fff;
-	font-size: .4em;
+@media(max-width:991px){#index-page-main-bg,#school-page-main-bg,#overview-page-main-bg,#services-page-main-bg,#contact-page-main-bg,#consultation-page-main-bg{background-size:200%;}
 }
-
-.page-banner-inverse h1{
-	color: #fff;
-}
-
-.page-banner-inverse small{
-	color: #fff;
-	font-size: .4em;
-}
-
-/*index page*/
-#index-School, #index-Testimonials{
-	background: rgba(230,230,230,.9);
-    width: 100%;
-    background-position: center;
-    background-size: cover;
-}
-
-.carousel-caption, .carousel-caption h1{
-    color: #fff;
-}
-.carousel-caption h1{
-	font-size: 4em;
-	margin: 0;
-	padding: 0;
-}
-
-/*school page*/
-
-#school-banner{
-	background: rgba(0,0,0,.2);
-	background-size: 100%;
-	background-position: 50% 50%;
-	background-repeat: no-repeat;
-}
-
-
-/*service*/
-
-#service-banner{
-	background: url('https://ununsplash.imgix.net/photo-1416339134316-0e91dc9ded92?q=75&fm=jpg&s=883a422e10fc4149893984019f63c818');
-	background-size: 100%;
-	background-position: 50% 50%;
-	background-repeat: no-repeat;
-}
-
-#contact-banner{
-	background: url('https://s3.amazonaws.com/ooomf-com-files/eDLHCtzRR0yfFtU0BQar_sylwiabartyzel_themap.jpg');
-	background-size: 100%;
-	background-position: 80% 50%;
-	background-repeat: no-repeat;
-}
-
-#construction-banner{
-	background: url('https://unsplash.imgix.net/reserve/oIpwxeeSPy1cnwYpqJ1w_Dufer%20Collateral%20test.jpg?q=75&fm=jpg&s=d8cce13e5d977aeec5bdbec256987adf');
-	background-size: 100%;
-	background-position: 80% 50%;
-	background-repeat: no-repeat;
-}
-#overview-banner{
-	background: url('https://s3.amazonaws.com/ooomf-com-files/tkLOe7nnQ7mnMsiuijBy_hm.jpg');
-	background-size: 100%;
-	background-position: 80% 50%;
-	background-repeat: no-repeat;
-}
-
-#consultation-banner{
-	background: url('../img/whygo/whygo-paper.jpg');
-	background-size: 100%;
-	background-position: 80% 50%;
-	background-repeat: no-repeat;
-}
-
-
-.content-inverse{
-	color: #fff;
-	background: rgba(230,230,230,.8);
-}
-
-.page-header{
-	border-bottom: 1px solid #ccc
-}
-
-h2{
-	/*background: #008972;*/
-	color: #EFC028;
-	font-size: 2.5em;
-	/*padding: 15% 0;*/
-
-}
-
-.style-lightblue,h1{
-	/*background: #EFC028;*/
-	color: #0067A6;
-	font-size: 3em;
-	/*padding: 15% 0;*/
-}
-
-h3{
-	/*background: #008972;*/
-	color: #FF8641;
-	font-size: 2em;
-	/*padding: 15% 0;*/
-}
-
-.style-gray,h4{
-	/*background: #ddd;*/
-	color: #999;
-	/*padding: 15% 0;*/
-}
-
-.style-darkblue{
-	/*background: #0067A6;*/
-	color: #008972;
-	/*padding: 15% 0;*/
-}
-
-
-#school-page-main-bg{
-	background: url('../img/hero.jpg');
-    background-size: 250%;
-    background-position: 50% 50%;
-    background-repeat: no-repeat;
-}
-#index-page-main-bg{
-	background: url('../img/notebook.jpg');
-    background-size: 250%;
-    background-position: 50% 50%;
-    background-repeat: no-repeat;
-}
-
-#overview-page-main-bg{
-	background: url('https://s3.amazonaws.com/ooomf-com-files/tkLOe7nnQ7mnMsiuijBy_hm.jpg');
-    background-size: 250%;
-    background-position: 50% 50%;
-    background-repeat: no-repeat;
-}
-
-#services-page-main-bg{
-	background: url('https://ununsplash.imgix.net/photo-1416339134316-0e91dc9ded92?q=75&fm=jpg&s=883a422e10fc4149893984019f63c818');
-    background-size: 250%;
-    background-position: 0% 50%;
-    background-repeat: no-repeat;
-}
-
-#contact-page-main-bg{
-	background: url('https://s3.amazonaws.com/ooomf-com-files/eDLHCtzRR0yfFtU0BQar_sylwiabartyzel_themap.jpg');
-    background-size: 250%;
-    background-position: 0% 50%;
-    background-repeat: no-repeat;
-}
-
-#consultation-page-main-bg{
-	background: url('../img/whygo/whygo-paper-light.jpg');
-    background-size: 250%;
-    background-position: 50% 50%;
-    background-repeat: no-repeat;
-}
-/*
-.carousel-caption {
-	text-shadow: 1px 2px 2px rgba(0,0,0,.7);
-	color: #0067A6;
-}
-
-header .carousel-caption{
-	background: none;
-}*/
-
-.footer-bg{
-    background: rgba(230,230,230,1);
-    color: #555;
-}
-
-.carousel h1{
-	color: #fff;
-}
-
-.inverse h1{
-	color: #EFC028;
-}
-
-.content-bg-gray{
-	background: #eee;
-	color: #777;
-}
-
-.content-bg-white{
-	background: #fff;
-	color: #333;
-}
-
-.content-bg-dark{
-	background: #ddd;
-	color: #555;
-}
-
-.content-bg-black, .content-bg-black h2, .content-bg-black p{
-	background: #555;
-	color: #ddd;
-}
-
-.content-bg-none{
-	background: none;
-}
-
-.content-bg-gray-img{
-	background: rgba(230,230,230,.7);
-}
-
-.content{
-	background: #fff;
-}
-.text-primary-1{
-    color: #F26378;
-}
-
-.text-primary-2{
-    color: #F8E400;
-}
-
-.text-primary-3{
-    color: #13DBAD;
-}
-
-.text-primary-4{
-    color: #0092C7;
-}
-
-.panel-default .panel-level-1,.panel-default .panel-level-1 h4{
-	background: #2FA1BF;
-	color: #fff;
-}
-.panel-default .panel-level-2,.panel-default .panel-level-2 h4{
-	background: #1F6B7F;
-	color: #fff;
-}
-.panel-default .panel-level-3,.panel-default .panel-level-3 h4{
-	background: #103640;
-	color: #fff;
-}
-
-.language-switch{
-	background: #aaa;
-	color: #eee;
-}
-
-.content-bg-gray-opacity{
-	background: rgba(255,255,255,.9);
-}
-
-.wrapper-cover-light{
-	background: rgba(240,240,240,.8);
-	width: 100%;
-	height: 100%;
-	position: absolute;
-	top: 0;
-}
-
-.wrapper-cover-dark{
-	background: rgba(50,50,50,.8);
-	width: 100%;
-	height: 100%;
-	position: absolute;
-	top: 0;
-}
-
-.content-bg-inverse p,.content-bg-inverse h2{
-	color: #fff;
-	
-}
-
-.content-bg-inverse .lead{
-	color: #008972;
-}
-
-button.hightlight,.hightlight {
-background: #EF6120;
-color: #fff;
-border: none;
--webkit-transition: all 200ms cubic-bezier(0.77, 0, 0.175, 1) 10ms;
-  -moz-transition: all 200ms cubic-bezier(0.77, 0, 0.175, 1) 10ms;
-  -o-transition: all 200ms cubic-bezier(0.77, 0, 0.175, 1) 10ms;
-  transition: all 200ms cubic-bezier(0.77, 0, 0.175, 1) 10ms;
-
-}
-
-.mask{
-	position: fixed;
-	top: 0;
-	z-index: 999999999;
-	width: 100%;
-	height: 100%;
-	background: #f1f1f1;
-}
-
-
-button.hightlight:hover,.hightlight:hover{
-    background: #EFC028;
-    color: #fff;
-    border: none;
-}
-
-@media(max-width:1920px) {
-    #index-page-main-bg,#school-page-main-bg,#overview-page-main-bg,#services-page-main-bg,#contact-page-main-bg,#consultation-page-main-bg{
-		background-size: 100%;
-    }
-}
-
-@media(max-width:1280px) {
-    #index-page-main-bg,#school-page-main-bg,#overview-page-main-bg,#services-page-main-bg,#contact-page-main-bg,#consultation-page-main-bg{
-		background-size: 150%;
-    }
-}
-
-@media(max-width:991px) {
-    #index-page-main-bg,#school-page-main-bg,#overview-page-main-bg,#services-page-main-bg,#contact-page-main-bg,#consultation-page-main-bg{
-		background-size: 200%;
-    }
-}
-
-@media(max-width:767px) {
-    #index-page-main-bg,#school-page-main-bg,#overview-page-main-bg,#services-page-main-bg,#contact-page-main-bg,#consultation-page-main-bg{
-		background-size: 250%;
-    }
-    .index-banner h1{
-    	font-size: 2em;
-    }
-    .index-banner p{
-    	font-size: 1em;
-    }
+@media(max-width:767px){#index-page-main-bg,#school-page-main-bg,#overview-page-main-bg,#services-page-main-bg,#contact-page-main-bg,#consultation-page-main-bg{background-size:250%;}
+.index-banner h1{font-size:2em;}
+.index-banner p{font-size:1em;}
 }
